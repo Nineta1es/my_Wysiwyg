@@ -1,0 +1,89 @@
+
+* {
+    margin: 0;
+    padding: 8;
+}
+
+
+body {
+    background: url('../fond.jpg');
+    background-size: cover;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    justify-content: center;
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.form__title, .form__textarea {
+    background: rgb(219, 238, 255);;
+    border: lightgrey 1px solid;
+    border-radius: 3px;
+}
+
+.form__textarea {
+    min-height: 500px;
+}
+
+.form__title {
+    padding: 2px 0;
+}
+
+.form__container {
+    background-color: rgb(1, 1, 1, 0.6);
+    padding: 30px;
+    border-radius: 4px;
+    margin-top: 100px ;
+}
+
+.form__text {
+    color: white;
+}
+
+.form__button {
+    margin-top: 5px;
+}
+
+button {
+    background-color: rgb(207, 233, 255);
+    border: rgb(232, 255, 252) 1px solid;
+    border-radius: 3px;
+    padding: 4px 6px;
+    margin-right: 5px;
+}
+
+button:active {
+    background-color: rgb(188, 213, 235);
+    border: lightgrey 1px solid;
+}
+
+.form__text-container {
+    padding-bottom: 10px;
+}
+
+.form__save {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.savebutton {
+    background-color: rgb(81, 202, 57);
+    border: rgb(151, 221, 137) 2px solid;
+    border-radius: 3px;
+    padding: 6px 20px;
+    margin-right: 5px;
+    color: #fefefe;
+    font-weight: bold;
+}
+
+.savebutton:active {
+    background-color: rgb(77, 177, 57);
+    border: rgb(151, 221, 137) 2px solid;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wysiwyg</title>
+    <script type="module" src="./modules/my_wysiwyg.js"></script>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+<div class="form">
+    <div class="form__container">
+        <div class="form__texe-container">
+            <p class="form__text">Entry Title: <input name="title" class="form__title" type="text" size="80" maxlength="80"></p>
+        </div>
+        <div class="form__text-container">
+            <p class="form__text">Entry Body:</p>
+            <div class="form__button" id="buttons">
+
+            </div>
+        </div>
+        <div class="form__textarea" id="textarea" contenteditable="true">
+        </div>
+        <div class="form__save" id="save">
+            
+        </div>
+    </div>
+</div>
+</body>
+</html>
